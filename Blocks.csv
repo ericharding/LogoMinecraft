@@ -1,0 +1,625 @@
+Name, TileName, DataValue, ID
+Air, air, , 0
+Stone, stone, 0, 1
+Granite, stone, 1, 1
+Polished Granite, stone, 2, 1
+Diorite, stone, 3, 1
+Polished Diorite, stone, 4, 1
+Andesite, stone, 5, 1
+Polished Andesite, stone, 6, 1
+Grass Block, grass, , 2
+Dirt, dirt, 0, 3
+Coarse Dirt, dirt, 1, 3
+Podzol, dirt, 2, 3
+Cobblestone, cobblestone, , 4
+Oak Wood Plank, planks, 0, 5
+Spruce Wood Plank, planks, 1, 5
+Birch Wood Plank, planks, 2, 5
+Jungle Wood Plank, planks, 3, 5
+Acacia Wood Plank, planks, 4, 5
+Dark Oak Wood Plank, planks, 5, 5
+Oak Sapling, sapling, 0, 6
+Spruce Sapling, sapling, 1, 6
+Birch Sapling, sapling, 2, 6
+Jungle Sapling, sapling, 3, 6
+Acacia Sapling, sapling, 4, 6
+Dark Oak Sapling, sapling, 5, 6
+Bedrock, bedrock, , 7
+Sand, sand, 0, 12
+Red Sand, sand, 1, 12
+Gravel, gravel, , 13
+Gold Ore, gold_ore, , 14
+Iron Ore, iron_ore, , 15
+Coal Ore, coal_ore, , 16
+Oak Wood, log, 0, 17
+Spruce Wood, log, 1, 17
+Birch Wood, log, 2, 17
+Jungle Wood, log, 3, 17
+Oak Leaves, leaves, 0, 18
+Spruce Leaves, leaves, 1, 18
+Birch Leaves, leaves, 2, 18
+Jungle Leaves, leaves, 3, 18
+Sponge, sponge, 0, 19
+Wet Sponge, sponge, 1, 19
+Glass, glass, , 20
+Lapis Lazuli Ore, lapis_ore, , 21
+Lapis Lazuli Block, lapis_block, , 22
+Dispenser, dispenser, , 23
+Sandstone, sandstone, 0, 24
+Chiseled Sandstone, sandstone, 1, 24
+Smooth Sandstone, sandstone, 2, 24
+Note Block, noteblock, , 25
+Powered Rails, golden_rail, , 27
+Detector Rails, detector_rail, , 28
+Sticky Piston, sticky_piston, , 29
+Cobweb, web, , 30
+Grass, tallgrass, 1, 31
+Fern, tallgrass, 2, 31
+Dead Bush, deadbush, , 32
+Piston, piston, , 33
+Wool, wool, 0, 35
+Orange Wool, wool, 1, 35
+Magenta Wool, wool, 2, 35
+Light Blue Wool, wool, 3, 35
+Yellow Wool, wool, 4, 35
+Lime Wool, wool, 5, 35
+Pink Wool, wool, 6, 35
+Gray Wool, wool, 7, 35
+Light Gray Wool, wool, 8, 35
+Cyan Wool, wool, 9, 35
+Purple Wool, wool, 10, 35
+Blue Wool, wool, 11, 35
+Brown Wool, wool, 12, 35
+Green Wool, wool, 13, 35
+Red Wool, wool, 14, 35
+Black Wool, wool, 15, 35
+Dandelion, yellow_flower, 0, 37
+Poppy, red_flower, 0, 38
+Blue Orchid, red_flower, 1, 38
+Allium, red_flower, 2, 38
+Azure Bluet, red_flower, 3, 38
+Red Tulip, red_flower, 4, 38
+Orange Tulip, red_flower, 5, 38
+White Tulip, red_flower, 6, 38
+Pink Tulip, red_flower, 7, 38
+Oxeye Daisy, red_flower, 8, 38
+Mushroom (brown), brown_mushroom, , 39
+Mushroom (red with white spots), red_mushroom, , 40
+Block of Gold, gold_block, , 41
+Block of Iron, iron_block, , 42
+Stone Slab, stone_slab, 0, 44
+Sandstone Slab, stone_slab, 1, 44
+Cobblestone Slab, stone_slab, 3, 44
+Bricks Slab, stone_slab, 4, 44
+Stone Bricks Slab, stone_slab, 5, 44
+Nether Brick Slab, stone_slab, 6, 44
+Quartz Slab, stone_slab, 7, 44
+Bricks, brick_block, , 45
+TNT, tnt, , 46
+Bookshelf, bookshelf, , 47
+Moss Stone, mossy_cobblestone, , 48
+Obsidian, obsidian, , 49
+Torch, torch, , 50
+Mob Spawner, mob_spawner, , 52
+Oak Wood Stairs, oak_stairs, , 53
+Chest, chest, , 54
+Diamond Ore, diamond_ore, , 56
+Block of Diamond, diamond_block, , 57
+Crafting Table, crafting_table, , 58
+Farmland, farmland, , 60
+Furnace, furnace, , 61
+Furnace - Lit, lit_furnace, , 62
+Ladder, ladder, , 65
+Rails, rail, , 66
+Cobblestone Stairs, stone_stairs, , 67
+Lever, lever, , 69
+Stone Pressure Plate, stone_pressure_plate, , 70
+Wooden Pressure Plate, wooden_pressure_plate, , 72
+Redstone Ore, redstone_ore, , 73
+Redstone Torch, redstone_torch, , 76
+Stone Button, stone_button, , 77
+Snow, snow_layer, 0, 78
+Ice, ice, , 79
+Snow, snow, , 80
+Cactus, cactus, , 81
+Clay Block, clay, , 82
+Jukebox, jukebox, , 84
+Oak Fence, fence, , 85
+Pumpkin, pumpkin, , 86
+Netherrack, netherrack, , 87
+Soul Sand, soul_sand, , 88
+Glowstone, glowstone, , 89
+Jack o'Lantern, lit_pumpkin, , 91
+White Stained Glass, stained_glass, 0, 95
+Orange Stained Glass, stained_glass, 1, 95
+Magenta Stained Glass, stained_glass, 2, 95
+Light Blue Stained Glass, stained_glass, 3, 95
+Yellow Stained Glass, stained_glass, 4, 95
+Lime Stained Glass, stained_glass, 5, 95
+Pink Stained Glass, stained_glass, 6, 95
+Gray Stained Glass, stained_glass, 7, 95
+Light Gray Stained Glass, stained_glass, 8, 95
+Cyan Stained Glass, stained_glass, 9, 95
+Purple Stained Glass, stained_glass, 10, 95
+Blue Stained Glass, stained_glass, 11, 95
+Brown Stained Glass, stained_glass, 12, 95
+Green Stained Glass, stained_glass, 13, 95
+Red Stained Glass, stained_glass, 14, 95
+Black Stained Glass, stained_glass, 15, 95
+Wooden Trapdoor, trapdoor, , 96
+Stone Monster Egg, monster_egg, 0, 97
+Cobblestone Monster Egg, monster_egg, 1, 97
+Stone Brick Monster Egg, monster_egg, 2, 97
+Mossy Stone Brick Monster Egg, monster_egg, 3, 97
+Cracked Stone Brick Monster Egg, monster_egg, 4, 97
+Chiseled Stone Brick Monster Egg, monster_egg, 5, 97
+Stone Bricks, stonebrick, 0, 98
+Mossy Stone Bricks, stonebrick, 1, 98
+Cracked Stone Bricks, stonebrick, 2, 98
+Chiseled Stone Bricks, stonebrick, 3, 98
+Brown Mushroom Block, brown_mushroom_block, , 99
+Red Mushroom Block, red_mushroom_block, , 100
+Iron Bars, iron_bars, , 101
+Glass Pane, glass_pane, , 102
+Block of Melon, melon_block, , 103
+Vines, vine, , 106
+Oak Fence Gate, fence_gate, , 107
+Brick Stairs, brick_stairs, , 108
+Stone Brick Stairs, stone_brick_stairs, , 109
+Mycelium, mycelium, , 110
+Lily Pad, waterlily, , 111
+Block of Nether Brick, nether_brick, , 112
+Nether Brick Fence, nether_brick_fence, , 113
+Nether Brick Stairs, nether_brick_stairs, , 114
+Enchantment Table, enchanting_table, , 116
+End Portal, end_portal_frame, , 120
+End Stone, end_stone, , 121
+Dragon Egg, dragon_egg, , 122
+Redstone Lamp, redstone_lamp, , 123
+Oak Wood Slab, wooden_slab, 0, 126
+Spruce Wood Slab, wooden_slab, 1, 126
+Birch Wood Slab, wooden_slab, 2, 126
+Jungle Wood Slab, wooden_slab, 3, 126
+Acacia Wood Slab, wooden_slab, 4, 126
+Dark Oak Wood Slab, wooden_slab, 5, 126
+Sandstone Stairs, sandstone_stairs, , 128
+Emerald Ore, emerald_ore, , 129
+Ender Chest, ender_chest, , 130
+Tripwire Hook, tripwire_hook, , 131
+Block of Emerald, emerald_block, , 133
+Spruce Wood Stairs, spruce_stairs, , 134
+Birch Wood Stairs, birch_stairs, , 135
+Jungle Wood Stairs, jungle_stairs, , 136
+Command Block, command_block, , 137
+Beacon, beacon, , 138
+Cobblestone Wall, cobblestone_wall, 0, 139
+Mossy Cobblestone Wall, cobblestone_wall, 1, 139
+Wooden Button, wooden_button, , 143
+Anvil, anvil, 0, 145
+Slightly Damaged Anvil, anvil, 1, 145
+Very Damaged Anvil, anvil, 2, 145
+Trapped Chest, trapped_chest, , 146
+Light Weighted Pressure Plate, light_weighted_pressure_plate, , 147
+Heavy Weighted Pressure Plate, heavy_weighted_pressure_plate, , 148
+Daylight Sensor, daylight_detector, , 151
+Block of Redstone, redstone_block, , 152
+Nether Quartz Ore, quartz_ore, , 153
+Hopper, hopper, , 154
+Block of Quartz, quartz_block, 0, 155
+Chiseled Quartz Block, quartz_block, 1, 155
+Pillar Quartz Block, quartz_block, 2, 155
+Quartz Stairs, quartz_stairs, , 156
+Activator Rails, activator_rail, , 157
+Dropper, dropper, , 158
+White Stained Clay, stained_hardened_clay, 0, 159
+Orange Stained Clay, stained_hardened_clay, 1, 159
+Magenta Stained Clay, stained_hardened_clay, 2, 159
+Light Blue Stained Clay, stained_hardened_clay, 3, 159
+Yellow Stained Clay, stained_hardened_clay, 4, 159
+Lime Stained Clay, stained_hardened_clay, 5, 159
+Pink Stained Clay, stained_hardened_clay, 6, 159
+Gray Stained Clay, stained_hardened_clay, 7, 159
+Light Gray Stained Clay, stained_hardened_clay, 8, 159
+Cyan Stained Clay, stained_hardened_clay, 9, 159
+Purple Stained Clay, stained_hardened_clay, 10, 159
+Blue Stained Clay, stained_hardened_clay, 11, 159
+Brown Stained Clay, stained_hardened_clay, 12, 159
+Green Stained Clay, stained_hardened_clay, 13, 159
+Red Stained Clay, stained_hardened_clay, 14, 159
+Black Stained Clay, stained_hardened_clay, 15, 159
+White Stained Glass Pane, stained_glass_pane, 0, 160
+Orange Stained Glass Pane, stained_glass_pane, 1, 160
+Magenta Stained Glass Pane, stained_glass_pane, 2, 160
+Light Blue Stained Glass Pane, stained_glass_pane, 3, 160
+Yellow Stained Glass Pane, stained_glass_pane, 4, 160
+Lime Stained Glass Pane, stained_glass_pane, 5, 160
+Pink Stained Glass Pane, stained_glass_pane, 6, 160
+Gray Stained Glass Pane, stained_glass_pane, 7, 160
+Light Gray Stained Glass Pane, stained_glass_pane, 8, 160
+Cyan Stained Glass Pane, stained_glass_pane, 9, 160
+Purple Stained Glass Pane, stained_glass_pane, 10, 160
+Blue Stained Glass Pane, stained_glass_pane, 11, 160
+Brown Stained Glass Pane, stained_glass_pane, 12, 160
+Green Stained Glass Pane, stained_glass_pane, 13, 160
+Red Stained Glass Pane, stained_glass_pane, 14, 160
+Black Stained Glass Pane, stained_glass_pane, 15, 160
+Acacia Leaves, leaves2, 0, 161
+Dark Oak Leaves, leaves2, 1, 161
+Acacia Wood, log2, 0, 162
+Dark Oak Wood, log2, 1, 162
+Acacia Wood Stairs, acacia_stairs, , 163
+Dark Oak Wood Stairs, dark_oak_stairs, , 164
+Slime Block, slime, , 165
+Barrier, barrier, , 166
+Iron Trapdoor, iron_trapdoor, , 167
+Prismarine, prismarine, 0, 168
+Prismarine Bricks, prismarine, 1, 168
+Dark Prismarine, prismarine, 2, 168
+Sea Lantern, sea_lantern, , 169
+Hay Bale, hay_block, , 170
+Carpet, carpet, 0, 171
+Orange Carpet, carpet, 1, 171
+Magenta Carpet, carpet, 2, 171
+Light Blue Carpet, carpet, 3, 171
+Yellow Carpet, carpet, 4, 171
+Lime Carpet, carpet, 5, 171
+Pink Carpet, carpet, 6, 171
+Gray Carpet, carpet, 7, 171
+Light Gray Carpet, carpet, 8, 171
+Cyan Carpet, carpet, 9, 171
+Purple Carpet, carpet, 10, 171
+Blue Carpet, carpet, 11, 171
+Brown Carpet, carpet, 12, 171
+Green Carpet, carpet, 13, 171
+Red Carpet, carpet, 14, 171
+Black Carpet, carpet, 15, 171
+Hardened Clay, hardened_clay, , 172
+Coal Block, coal_block, , 173
+Packed Ice, packed_ice, , 174
+Sunflower, double_plant, 0, 175
+Lilac, double_plant, 1, 175
+Double Tallgrass, double_plant, 2, 175
+Large Fern, double_plant, 3, 175
+Rose Bush, double_plant, 4, 175
+Peony, double_plant, 5, 175
+Red Sandstone, red_sandstone, 0, 179
+Chiseled Red Sandstone, red_sandstone, 1, 179
+Smooth Red Sandstone, red_sandstone, 2, 179
+Red Sandstone Stairs, red_sandstone_stairs, , 180
+Red Sandstone Slab, stone_slab2, 0, 182
+Spruce Fence Gate, spruce_fence_gate, , 183
+Birch Fence Gate, birch_fence_gate, , 184
+Jungle Fence Gate, jungle_fence_gate, , 185
+Dark Oak Fence Gate, dark_oak_fence_gate, , 186
+Acacia Fence Gate, acacia_fence_gate, , 187
+Spruce Fence, spruce_fence, , 188
+Birch Fence, birch_fence, , 189
+Jungle Fence, jungle_fence, , 190
+Dark Oak Fence, dark_oak_fence, , 191
+Acacia Fence, acacia_fence, , 192
+Iron Shovel, iron_shovel, , 256
+Iron Pickaxe, iron_pickaxe, , 257
+Iron Axe, iron_axe, , 258
+Flint and Steel, flint_and_steel, , 259
+Apple, apple, , 260
+Bow, bow, , 261
+Arrow, arrow, , 262
+Coal, coal, 0, 263
+Charcoal, coal, 1, 263
+Diamond, diamond, , 264
+Iron Ingot, iron_ingot, , 265
+Gold Ingot, gold_ingot, , 266
+Iron Sword, iron_sword, , 267
+Wooden Sword, wooden_sword, , 268
+Wooden Shovel, wooden_shovel, , 269
+Wooden Pickaxe, wooden_pickaxe, , 270
+Wooden Axe, wooden_axe, , 271
+Stone Sword, stone_sword, , 272
+Stone Shovel, stone_shovel, , 273
+Stone Pickaxe, stone_pickaxe, , 274
+Stone Axe, stone_axe, , 275
+Diamond Sword, diamond_sword, , 276
+Diamond Shovel, diamond_shovel, , 277
+Diamond Pickaxe, diamond_pickaxe, , 278
+Diamond Axe, diamond_axe, , 279
+Stick, stick, , 280
+Bowl, bowl, , 281
+Mushroom Stew, mushroom_stew, , 282
+Golden Sword, golden_sword, , 283
+Golden Shovel, golden_shovel, , 284
+Golden Pickaxe, golden_pickaxe, , 285
+Golden Axe, golden_axe, , 286
+String, string, , 287
+Feather, feather, , 288
+Gunpowder, gunpowder, , 289
+Wooden Hoe, wooden_hoe, , 290
+Stone Hoe, stone_hoe, , 291
+Iron Hoe, iron_hoe, , 292
+Diamond Hoe, diamond_hoe, , 293
+Golden Hoe, golden_hoe, , 294
+Seeds, wheat_seeds, , 295
+Wheat, wheat, , 296
+Bread, bread, , 297
+Leather Cap, leather_helmet, , 298
+Leather Tunic, leather_chestplate, , 299
+Leather Pants, leather_leggings, , 300
+Leather Boots, leather_boots, , 301
+Chain Helmet, chainmail_helmet, , 302
+Chain Chestplate, chainmail_chestplate, , 303
+Chain Leggings, chainmail_leggings, , 304
+Chain Boots, chainmail_boots, , 305
+Iron Helmet, iron_helmet, , 306
+Iron Chestplate, iron_chestplate, , 307
+Iron Leggings, iron_leggings, , 308
+Iron Boots, iron_boots, , 309
+Diamond Helmet, diamond_helmet, , 310
+Diamond Chestplate, diamond_chestplate, , 311
+Diamond Leggings, diamond_leggings, , 312
+Diamond Boots, diamond_boots, , 313
+Golden Helmet, golden_helmet, , 314
+Golden Chestplate, golden_chestplate, , 315
+Golden Leggings, golden_leggings, , 316
+Golden Boots, golden_boots, , 317
+Flint, flint, , 318
+Raw Porkchop, porkchop, , 319
+Cooked Porkchop, cooked_porkchop, , 320
+Painting, painting, , 321
+Golden Apple, golden_apple, 0, 322
+Enchanted Golden Apple, golden_apple, 1, 322
+Sign, sign, , 323
+Oak Door, wooden_door, , 324
+Bucket, bucket, , 325
+Water Bucket, water_bucket, , 326
+Lava Bucket, lava_bucket, , 327
+Minecart, minecart, , 328
+Saddle, saddle, , 329
+Iron Door, iron_door, , 330
+Redstone, redstone, , 331
+Snowball, snowball, , 332
+Boat, boat, , 333
+Leather, leather, , 334
+Milk, milk_bucket, , 335
+Brick, brick, , 336
+Clay, clay_ball, , 337
+Sugar Canes, reeds, , 338
+Paper, paper, , 339
+Book, book, , 340
+Slimeball, slime_ball, , 341
+Minecart with Chest, chest_minecart, , 342
+Minecart with Furnace, furnace_minecart, , 343
+Egg, egg, , 344
+Compass, compass, , 345
+Fishing Rod, fishing_rod, , 346
+Clock, clock, , 347
+Glowstone Dust, glowstone_dust, , 348
+Raw Fish, fish, 0, 349
+Raw Salmon, fish, 1, 349
+Clownfish, fish, 2, 349
+Pufferfish, fish, 3, 349
+Cooked Fish, cooked_fish, 0, 350
+Cooked Salmon, cooked_fish, 1, 350
+Ink Sac, dye, 0, 351
+Rose Red, dye, 1, 351
+Cactus Green, dye, 2, 351
+Cocoa Beans, dye, 3, 351
+Lapis Lazuli, dye, 4, 351
+Purple Dye, dye, 5, 351
+Cyan Dye, dye, 6, 351
+Light Gray Dye, dye, 7, 351
+Gray Dye, dye, 8, 351
+Pink Dye, dye, 9, 351
+Lime Dye, dye, 10, 351
+Dandelion Yellow, dye, 11, 351
+Light Blue Dye, dye, 12, 351
+Magenta Dye, dye, 13, 351
+Orange Dye, dye, 14, 351
+Bone Meal, dye, 15, 351
+Bone, bone, , 352
+Sugar, sugar, , 353
+Cake, cake, , 354
+Bed, bed, , 355
+Redstone Repeater, repeater, , 356
+Cookie, cookie, , 357
+Map (Filled), filled_map, , 358
+Shears, shears, , 359
+Melon, melon, , 360
+Pumpkin Seeds, pumpkin_seeds, , 361
+Melon Seeds, melon_seeds, , 362
+Raw Beef, beef, , 363
+Steak, cooked_beef, , 364
+Raw Chicken, chicken, , 365
+Cooked Chicken, cooked_chicken, , 366
+Rotten Flesh, rotten_flesh, , 367
+Ender Pearl, ender_pearl, , 368
+Blaze Rod, blaze_rod, , 369
+Ghast Tear, ghast_tear, , 370
+Gold Nugget, gold_nugget, , 371
+Nether Wart, nether_wart, , 372
+Water Bottle, potion, 0, 373
+Potion of Regeneration (0:45), potion, 8193, 373
+Potion of Swiftness (3:00), potion, 8194, 373
+Potion of Poison (0:45), potion, 8196, 373
+Potion of Strength (3:00), potion, 8201, 373
+Potion of Leaping (3:00 - Jump Boost), potion, 8203, 373
+Potion of Regeneration (0:22 - Regeneration II), potion, 8225, 373
+Potion of Swiftness (1:30 - Speed II), potion, 8226, 373
+Potion of Fire Resistance (3:00), potion, 8227, 373
+Potion of Poison (0:22 - Poison II), potion, 8228, 373
+Potion of Healing (Instant Health II), potion, 8229, 373
+Potion of Night Vision (3:00), potion, 8230, 373
+Potion of Weakness (1:30), potion, 8232, 373
+Potion of Strength (1:30 - Strength II), potion, 8233, 373
+Potion of Slowness (1:30), potion, 8234, 373
+Potion of Leaping (1:30 - Jump Boost II), potion, 8235, 373
+Potion of Harming (Instant Damage II), potion, 8236, 373
+Potion of Water Breathing (3:00), potion, 8237, 373
+Potion of Invisibility (3:00), potion, 8238, 373
+Potion of Regeneration (2:00), potion, 8257, 373
+Potion of Swiftness (8:00), potion, 8258, 373
+Potion of Fire Resistance (8:00), potion, 8259, 373
+Potion of Poison (2:00), potion, 8260, 373
+Potion of Healing (Instant Health), potion, 8261, 373
+Potion of Night Vision (8:00), potion, 8262, 373
+Potion of Weakness (4:00), potion, 8264, 373
+Potion of Strength (8:00), potion, 8265, 373
+Potion of Slowness (4:00), potion, 8266, 373
+Potion of Leaping (8:00 - Jump Boost), potion, 8267, 373
+Potion of Harming (Instant Damage), potion, 8268, 373
+Potion of Water Breathing (8:00), potion, 8269, 373
+Potion of Invisibility (8:00), potion, 8270, 373
+Splash Potion of Regeneration (0:33), potion, 16385, 373
+Splash Potion of Swiftness (2:15), potion, 16386, 373
+Splash Potion of Poison (0:33), potion, 16388, 373
+Splash Potion of Strength (2:15), potion, 16393, 373
+Splash Potion of Leaping (2:15 - Jump Boost), potion, 16395, 373
+Splash Potion of Regeneration (0:16 - Regeneration II), potion, 16417, 373
+Splash Potion of Swiftness (1:07 - Speed II), potion, 16418, 373
+Splash Potion of Fire Resistance (2:15), potion, 16419, 373
+Splash Potion of Poison (0:16 - Poison II), potion, 16420, 373
+Splash Potion of Healing (Instant Health II), potion, 16421, 373
+Splash Potion of Night Vision (3:00/2:15), potion, 16422, 373
+Splash Potion of Weakness (1:30/1:07), potion, 16424, 373
+Splash Potion of Strength (1:07 - Strength II), potion, 16425, 373
+Splash Potion of Slowness (1:07), potion, 16426, 373
+Splash Potion of Leaping (1:07 - Jump Boost II), potion, 16427, 373
+Splash Potion of Harming (Instant Damage II), potion, 16428, 373
+Splash Potion of Water Breathing (2:15), potion, 16429, 373
+Splash Potion of Invisibility (2:15), potion, 16430, 373
+Splash Potion of Regeneration (1:30), potion, 16449, 373
+Splash Potion of Swiftness (6:00), potion, 16450, 373
+Splash Potion of Fire Resistance (6:00), potion, 16451, 373
+Splash Potion of Poison (1:30), potion, 16452, 373
+Splash Potion of Healing (Instant Health), potion, 16453, 373
+Splash Potion of Night Vision (6:00), potion, 16454, 373
+Splash Potion of Weakness (3:00), potion, 16456, 373
+Splash Potion of Strength (6:00), potion, 16457, 373
+Splash Potion of Slowness (3:00), potion, 16458, 373
+Splash Potion of Leaping (6:00 - Jump Boost), potion, 16459, 373
+Splash Potion of Harming (Instant Damage), potion, 16460, 373
+Splash Potion of Water Breathing (6:00), potion, 16461, 373
+Splash Potion of Invisibility (6:00), potion, 16462, 373
+Glass Bottle, glass_bottle, , 374
+Spider Eye, spider_eye, , 375
+Fermented Spider Eye, fermented_spider_eye, , 376
+Blaze Powder, blaze_powder, , 377
+Magma Cream, magma_cream, , 378
+Brewing Stand, brewing_stand, , 379
+Cauldron, cauldron, , 380
+Eye of Ender, ender_eye, , 381
+Glistering Melon, speckled_melon, , 382
+Spawn Creeper, spawn_egg, 50, 383
+Spawn Skeleton, spawn_egg, 51, 383
+Spawn Spider, spawn_egg, 52, 383
+Spawn Zombie, spawn_egg, 54, 383
+Spawn Slime, spawn_egg, 55, 383
+Spawn Ghast, spawn_egg, 56, 383
+Spawn Zombie Pigman, spawn_egg, 57, 383
+Spawn Enderman, spawn_egg, 58, 383
+Spawn Cave Spider, spawn_egg, 59, 383
+Spawn Silverfish, spawn_egg, 60, 383
+Spawn Blaze, spawn_egg, 61, 383
+Spawn Magma Cube, spawn_egg, 62, 383
+Spawn Bat, spawn_egg, 65, 383
+Spawn Witch, spawn_egg, 66, 383
+Spawn Endermite, spawn_egg, 67, 383
+Spawn Guardian, spawn_egg, 68, 383
+Spawn Pig, spawn_egg, 90, 383
+Spawn Sheep, spawn_egg, 91, 383
+Spawn Cow, spawn_egg, 92, 383
+Spawn Chicken, spawn_egg, 93, 383
+Spawn Squid, spawn_egg, 94, 383
+Spawn Wolf, spawn_egg, 95, 383
+Spawn Mooshroom, spawn_egg, 96, 383
+Spawn Ocelot, spawn_egg, 98, 383
+Spawn Horse, spawn_egg, 100, 383
+Spawn Rabbit, spawn_egg, 101, 383
+Spawn Villager, spawn_egg, 120, 383
+Bottle o'Enchanting, experience_bottle, , 384
+Fire Charge, fire_charge, , 385
+Book and Quill, writable_book, , 386
+Written Book, written_book, , 387
+Emerald, emerald, , 388
+Item Frame, item_frame, , 389
+Flower Pot, flower_pot, , 390
+Carrot, carrot, , 391
+Potato, potato, , 392
+Baked Potato, baked_potato, , 393
+Poisonous Potato, poisonous_potato, , 394
+Map, map, , 395
+Golden Carrot, golden_carrot, , 396
+Skeleton Skull, skull, 0, 397
+Wither Skeleton Skull, skull, 1, 397
+Zombie Head, skull, 2, 397
+Head, skull, 3, 397
+Creeper Head, skull, 4, 397
+Carrot on a Stick, carrot_on_a_stick, , 398
+Nether Star, nether_star, , 399
+Pumpkin Pie, pumpkin_pie, , 400
+Firework Rocket, fireworks, , 401
+Firework Star, firework_charge, , 402
+Enchanted Book, enchanted_book, , 403
+Redstone Comparator, comparator, , 404
+Nether Brick, netherbrick, , 405
+Nether Quartz, quartz, , 406
+Minecart with TNT, tnt_minecart, , 407
+Minecart with Hopper, hopper_minecart, , 408
+Prismarine Shard, prismarine_shard, , 409
+Prismarine Crystals, prismarine_crystals, , 410
+Raw Rabbit, rabbit, , 411
+Cooked Rabbit, cooked_rabbit, , 412
+Rabbit Stew, rabbit_stew, , 413
+Rabbit's Foot, rabbit_foot, , 414
+Rabbit Hide, rabbit_hide, , 415
+Armor Stand, armor_stand, , 416
+Iron Horse Armor, iron_horse_armor, , 417
+Gold Horse Armor, golden_horse_armor, , 418
+Diamond Horse Armor, diamond_horse_armor, , 419
+Lead, lead, , 420
+Name Tag, name_tag, , 421
+Minecart with Command Block, command_block_minecart, , 422
+Raw Mutton, mutton, , 423
+Cooked Mutton, cooked_mutton, , 424
+Black Banner, banner, 0, 425
+Red Banner, banner, 1, 425
+Green Banner, banner, 2, 425
+Brown Banner, banner, 3, 425
+Blue Banner, banner, 4, 425
+Purple Banner, banner, 5, 425
+Cyan Banner, banner, 6, 425
+Light Gray Banner, banner, 7, 425
+Gray Banner, banner, 8, 425
+Pink Banner, banner, 9, 425
+Lime Banner, banner, 10, 425
+Yellow Banner, banner, 11, 425
+Light Blue Banner, banner, 12, 425
+Magenta Banner, banner, 13, 425
+Orange Banner, banner, 14, 425
+White Banner, banner, 15, 425
+Spruce Door, spruce_door, , 427
+Birch Door, birch_door, , 428
+Jungle Door, jungle_door, , 429
+Acacia Door, acacia_door, , 430
+Dark Oak Door, dark_oak_door, , 431
+Chorus Fruit, chorus_fruit, , 432
+Beetroot, beetroot, , 434
+Beetroot Seeds, beetroot_seeds, , 435
+Beetroot Soup, beetroot_soup, , 436
+Dragon's Breath, dragon_breath, , 437
+Spectral Arrow, spectral_arrow, , 439
+Arrow of Night Vision (0:22), tipped_arrow, , 440
+Arrow of Weakness (0:11), tipped_arrow, , 440
+Lingering Potion of Night Vision (0:45), lingering_potion, , 441
+Lingering Potion of Weakness (0:22), lingering_potion, , 441
+Shield, shield, , 442
+Music Disc - 13, record_13, , 2256
+Music Disc - Cat, record_cat, , 2257
+Music Disc - Blocks, record_blocks, , 2258
+Music Disc - Chirp, record_chirp, , 2259
+Music Disc - Far, record_far, , 2260
+Music Disc - Mall, record_mall, , 2261
+Music Disc - Mellohi, record_mellohi, , 2262
+Music Disc - Stal, record_stal, , 2263
+Music Disc - Strad, record_strad, , 2264
+Music Disc - Ward, record_ward, , 2265
+Music Disc - 11, record_11, , 2266
+Music Disc - Wait, record_wait, , 2267
