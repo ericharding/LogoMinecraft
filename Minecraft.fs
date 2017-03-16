@@ -198,7 +198,7 @@ let drawRect depth width =
     >> drawLine width
     >> turnRight 
         
-let rec pyramid width (c:Cursor) =
+let rec drawPyramid width (c:Cursor) =
     if width > 0 then 
         c 
         |> drawRect width width
@@ -207,5 +207,5 @@ let rec pyramid width (c:Cursor) =
         |> turnRight
         |> stepForward
         |> turnLeft
-        |> pyramid (width-2)
+        |> drawPyramid (width-2)
         

@@ -18,15 +18,16 @@ let slowSend s =
 
 let cursor = startAt slowSend "harding" 
 cursor
-// |> silent
 |> setTime Day
 |> setWeather Clear
-// |> face North
+|> face North
 |> stepForward
 |> withBlock "Stone"
 |> placeBlock
 |> stepForward
 |> placeBlock
+|> turnRight
+|> drawRect 4 4
 // |> resetPosition
 |> ignore
 
