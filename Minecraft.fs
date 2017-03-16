@@ -119,6 +119,13 @@ let delta direction distance =
     | East -> distance,0,0
     | West -> -distance,0,0
 
+let delta2 direction ahead right =
+    match direction with
+    | North -> right,0,-ahead
+    | South -> -right,0,ahead
+    | East -> ahead,0,right
+    | West -> -ahead,0,-right
+
 let (+++) (a,b,c) (x,y,z) = (a+x),(b+y),(c+z)
 let addDelta direction distance pos =
     pos +++ (delta direction distance)
@@ -183,6 +190,7 @@ let resetPosition c = { c with position = 0,0,0}
 
 let drawLineSlow dist (c:Cursor) =
     Seq.fold (fun c _ -> c |> placeBlock |> stepForward) c [1..dist]
+
 let drawLine dist (c:Cursor) =
     let x',y',z' = delta c.facing dist
     printfn "target: %A" (x',y',z')
@@ -197,15 +205,27 @@ let drawRect depth width =
     >> turnRight 
     >> drawLine width
     >> turnRight 
+
+let fillRect depth width (c:Cursor) =
+    let x,y,z = delta2 c.facing depth width
+    fillTo x y z c
         
 let rec drawPyramid width (c:Cursor) =
     if width > 0 then 
-        c 
-        |> drawRect width width
+        drawRect width width c
         |> stepUp
         |> stepForward
         |> turnRight
         |> stepForward
         |> turnLeft
         |> drawPyramid (width-2)
-        
+
+let rec fillPyramid width (c:Cursor) =        
+    if width > 0 then
+        c |> fillRect width width |> ignore
+        c |> stepUp |> stepForward |> turnRight |> stepForward |> turnLeft
+        |> fillPyramid (width-2)
+
+let rec filledPyramid inblock edgeblock width (c:Cursor) =
+    withBlock inblock c |> fillPyramid width
+    withBlock edgeblock c |> drawPyramid width

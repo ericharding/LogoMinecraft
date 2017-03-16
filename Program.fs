@@ -1,6 +1,5 @@
 ﻿module Main
 
-
 let player = "harding"
 let host = "localhost"
 let port = 25575
@@ -11,8 +10,9 @@ recv.Add(printfn "%A")
 
 open Minecraft
 
+let sleep (i:int) = System.Threading.Thread.Sleep i
 let slowSend s =
-    System.Threading.Thread.Sleep 200
+    sleep 250
     printfn "%s" s
     send s
 
@@ -35,17 +35,14 @@ cursor
 
 
 cursor 
-|> withBlock "air"
+|> setTime Day
+|> withBlock "Red Wool"
 |> face North
 |> stepForward
-|> drawLine 50
+|> filledPyramid "Air" "White Stained Glass" 25
+//|> fillPyramid 21
+|> ignore
 
-cursor 
-|> withBlock "air"
-|> face North
-|> stepDown
-|> stepForward
-|> drawLine 50
 // |> stepForward
 // |> drawRect 5 5
 // |> stepUp
