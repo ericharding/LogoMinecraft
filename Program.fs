@@ -10,9 +10,8 @@ recv.Add(printfn "%A")
 
 open Minecraft
 
-let sleep (i:int) = System.Threading.Thread.Sleep i
 let slowSend s =
-    sleep 250
+    sleep 200
     printfn "%s" s
     send s
 
@@ -33,15 +32,6 @@ cursor
 
 
 
-
-cursor 
-|> setTime Day
-|> withBlock "Red Wool"
-|> face North
-|> stepForward
-|> filledPyramid "Air" "White Stained Glass" 25
-//|> fillPyramid 21
-|> ignore
 
 // |> stepForward
 // |> drawRect 5 5

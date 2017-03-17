@@ -99,8 +99,12 @@ let private blockToStr (block: Block) oldhandling =
     | Some dt -> sprintf "%s %i %s %i" block.TileName block.DataValue oldv dt
     | None -> sprintf "%s %i %s" block.TileName block.DataValue oldv
 
-//
+let (+++) (a,b,c) (x,y,z) = (a+x),(b+y),(c+z)
+let sleep (i:int) = System.Threading.Thread.Sleep i
+
+/////////////////////////////////////////////////////////////////////
 // Methods
+/////////////////////////////////////////////////////////////////////
 
 let startAt send name =
     { initialCursor with send = send; player_target = name}
@@ -119,14 +123,16 @@ let delta direction distance =
     | East -> distance,0,0
     | West -> -distance,0,0
 
-let delta2 direction ahead right =
+let delta3 direction depth width height =
     match direction with
-    | North -> right,0,-ahead
-    | South -> -right,0,ahead
-    | East -> ahead,0,right
-    | West -> -ahead,0,-right
+    | North -> width,height,-depth
+    | South -> -width,height,depth
+    | East -> depth,height,width
+    | West -> -depth,height,-width
 
-let (+++) (a,b,c) (x,y,z) = (a+x),(b+y),(c+z)
+let delta2 direction ahead right =
+    delta3 direction ahead right 0
+
 let addDelta direction distance pos =
     pos +++ (delta direction distance)
     
@@ -208,6 +214,10 @@ let drawRect depth width =
 
 let fillRect depth width (c:Cursor) =
     let x,y,z = delta2 c.facing depth width
+    fillTo x y z c
+
+let fillRect3 depth width height (c:Cursor) =
+    let x,y,z = delta3 c.facing depth width height
     fillTo x y z c
         
 let rec drawPyramid width (c:Cursor) =
