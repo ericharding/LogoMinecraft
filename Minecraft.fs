@@ -138,14 +138,28 @@ let addDelta direction distance pos =
     
 let move direction distance c = 
     let x,y,z = c.position
-    { c with position = addDelta direction 1 c.position}
+    { c with position = addDelta direction distance c.position}
 
 let stepForward c = 
     move c.facing 1 c
+
+
+
 let moveUp distance c =
     let x,y,z = c.position
     { c with position = x,y+distance,z}
 let moveDown distance = moveUp -distance
+
+let moveForward distance c =
+    move c.facing distance c
+
+let moveBack distance c =
+    move c.facing (-distance) c
+
+let stepBack = moveBack 1
+
+
+
 let stepUp = moveUp 1
 let stepDown = moveDown 1
 
@@ -154,6 +168,12 @@ let turnRight c =
 
 let turnLeft c =
     { c with facing = c.facing.Left() }
+
+let stepLeft c =
+    c |> turnLeft |> stepForward |> turnRight
+
+let stepRight c =
+    c |> turnRight |> stepForward |> turnLeft
 
 let placeBlock c =
     let x,y,z = c.position
@@ -239,3 +259,9 @@ let rec fillPyramid width (c:Cursor) =
 let rec filledPyramid inblock edgeblock width (c:Cursor) =
     withBlock inblock c |> fillPyramid width
     withBlock edgeblock c |> drawPyramid width
+
+let rec repeat count fn c =
+    if count > 0 then
+        fn c |> repeat (count-1) fn
+    else
+        c

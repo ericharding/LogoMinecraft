@@ -1,7 +1,6 @@
 ﻿module RCon
 
 open System.IO
-open System
 open System.Net.Sockets
 
 type MsgType = SERVERDATA_AUTH = 3 | SERVERDATA_AUTH_RESPONSE = 2 | SERVERDATA_EXECCOMMAND = 2 | SERVERDATA_RESPONSE_VALUE = 0

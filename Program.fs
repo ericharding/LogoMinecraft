@@ -9,40 +9,47 @@ let send, recv = connect host port pass
 recv.Add(printfn "%A")
 
 open Minecraft
+open Castle
 
 let slowSend s =
     sleep 200
     printfn "%s" s
     send s
 
-let cursor = startAt slowSend "harding" 
+let cursor = 
+    startAt slowSend "harding" 
+    |> setTime Day
+    |> setWeather Clear
+    |> face North
+    |> stepForward
+
+
+
 cursor
-|> setTime Day
-|> setWeather Clear
-|> face North
-|> stepForward
 |> withBlock "Stone"
-|> placeBlock
-|> stepForward
-|> placeBlock
-|> turnRight
-|> drawRect 4 4
-// |> resetPosition
-|> ignore
+|> drawPyramid  10
+
+cursor
+|> withBlock "Stone"
+|> turret 4 4 15
+|> stepUp
+|> stepUp
+|> withBlock "Oak Wood Plank"
+|> drawPyramid 6
+
+    // |> crenelation 4 4 
 
 
-
-
-// |> stepForward
-// |> drawRect 5 5
-// |> stepUp
-// |> stepForward
-// |> turnRight
-// |> stepForward
+// sample:
 // |> face North
-// |> withBlock "pumpkin"
-// |> drawRect 3 3
-// // |> stepDown
-// // |> drawRect 5 5
+// |> stepForward
+// |> withBlock "Stone"
+// |> placeBlock
+// |> stepForward
+// |> placeBlock
+// |> turnRight
+// |> drawRect 4 4
+// // |> resetPosition
 // |> ignore
+
 
